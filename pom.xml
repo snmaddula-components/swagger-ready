@@ -4,11 +4,13 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
-	<groupId>snmaddula.components</groupId>
+	<groupId>io.github.snmaddula</groupId>
 	<artifactId>swagger-ready</artifactId>
 	<version>0.0.1</version>
 
 	<name>swagger-ready</name>
+	<url>https://github.com/snmaddula-components/swagger-ready</url>
+	<description>Adding this component to your application will make your application swagger ready</description>
 
 	<parent>
 		<groupId>org.springframework.boot</groupId>
