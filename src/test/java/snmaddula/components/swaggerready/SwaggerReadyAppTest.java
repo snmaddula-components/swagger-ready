@@ -5,7 +5,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 /**
  * 
- * @author narays38
+ * @author snmaddula
  *
  */
 @SwaggerReady
