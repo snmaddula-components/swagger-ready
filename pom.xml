@@ -12,6 +12,28 @@
 	<url>https://github.com/snmaddula-components/swagger-ready</url>
 	<description>Adding this component to your application will make your application swagger ready</description>
 
+	<licenses>
+		<license>
+			<name>MIT License</name>
+			<url>http://www.opensource.org/licenses/mit-license.php</url>
+		</license>
+	</licenses>
+
+	<developers>
+		<developer>
+			<name>Siva Narayana Reddy Maddula</name>
+			<email>sn_maddula@outlook.com</email>
+			<organization>SNMADDULA</organization>
+			<organizationUrl>http://www.github.com/snmaddula</organizationUrl>
+		</developer>
+	</developers>
+
+	<scm>
+		<connection>scm:git:git://github.com/snmaddula-components/swagger-ready.git</connection>
+		<developerConnection>scm:git:ssh://github.com:snmaddula-components/swagger-ready.git</developerConnection>
+		<url>http://github.com/snmaddula-components/swagger-ready/tree/master</url>
+	</scm>
+
 	<parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
@@ -30,13 +52,13 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
 		</dependency>
-		
+
 		<dependency>
 			<groupId>io.springfox</groupId>
 			<artifactId>springfox-swagger2</artifactId>
 			<version>${swagger.version}</version>
 		</dependency>
-		
+
 		<dependency>
 			<groupId>io.springfox</groupId>
 			<artifactId>springfox-swagger-ui</artifactId>
