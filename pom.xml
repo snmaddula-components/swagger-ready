@@ -162,7 +162,7 @@
 
 	<scm>
 		<connection>scm:git:git://github.com/snmaddula-components/swagger-ready.git</connection>
-		<developerConnection>scm:git:git://github.com:snmaddula-components/swagger-ready.git</developerConnection>
+		<developerConnection>scm:git:https://github.com/snmaddula-components/swagger-ready.git</developerConnection>
 		<url>http://github.com/snmaddula-components/swagger-ready/tree/master</url>
 	  <tag>swagger-ready-1.0.0</tag>
   </scm>
