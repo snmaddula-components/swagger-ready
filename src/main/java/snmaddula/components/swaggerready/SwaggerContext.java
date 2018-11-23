@@ -28,6 +28,7 @@ import springfox.documentation.swagger2.annotations.EnableSwagger2;
 class SwaggerContext {
 
     private String title;
+    private String version;
     private String description;
     private String basePackage;
     private String contactName;
@@ -47,6 +48,7 @@ class SwaggerContext {
     private ApiInfo apiInfo() {
     	return new ApiInfoBuilder()
                     .title(title)
+                    .version(version)
                     .description(description)
                     .contact(new Contact(contactName, contactUrl, contactEmail))
                     .build();

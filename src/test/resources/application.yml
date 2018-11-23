@@ -1,0 +1,9 @@
+swagger:
+  title: Swagger Ready Demo API
+  version: 1.0
+  description: Adding this component will make your application swagger ready
+  base-package: snmaddula.components.swaggerready
+  contact:
+    name: snmaddula
+    url: 
+    email: sn_maddula@outlook.com
