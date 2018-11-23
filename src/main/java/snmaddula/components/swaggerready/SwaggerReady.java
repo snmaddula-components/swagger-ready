@@ -1,6 +1,9 @@
 package snmaddula.components.swaggerready;
 
-import org.springframework.context.annotation.Configuration;
+import static java.lang.annotation.RetentionPolicy.RUNTIME;
+
+import java.lang.annotation.Retention;
+
 import org.springframework.context.annotation.Import;
 
 /**
@@ -9,7 +12,7 @@ import org.springframework.context.annotation.Import;
  * @author snmaddula
  *
  */
-@Configuration
+@Retention(RUNTIME)
 @Import(SwaggerContext.class)
 public @interface SwaggerReady {
 

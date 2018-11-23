@@ -4,7 +4,6 @@ import java.util.Objects;
 
 import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.context.annotation.Bean;
-import org.springframework.context.annotation.Configuration;
 
 import lombok.Setter;
 import springfox.documentation.builders.ApiInfoBuilder;
@@ -22,7 +21,6 @@ import springfox.documentation.swagger2.annotations.EnableSwagger2;
  *
  */
 @Setter
-@Configuration
 @EnableSwagger2
 @ConfigurationProperties(prefix = "swagger")
 class SwaggerContext {
