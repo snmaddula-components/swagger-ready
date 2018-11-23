@@ -20,8 +20,7 @@ Including this component in your application will make your application swagger 
       
     }
 
-With just this, Swagger was added into your application, <br> you can access it through 
-`localhost:<port>/swagger-ui.html`
+With just this, Swagger was added into your application.
 
 #### Adding swagger config in application.yml
 To customize the swagger (or) provide your app-specific configuration
@@ -36,3 +35,9 @@ To customize the swagger (or) provide your app-specific configuration
         url: http://github.com
         email: myemail@domain.com
       
+
+To access swagger, start your application and visit the below url: <br>
+http://localhost:PORT/context-path/swagger-ui.html
+
+In case, if you do not have any `context-path` for your application, you can access it with below url: <br>
+http://localhost:PORT/swagger-ui.html
