@@ -4,7 +4,7 @@
 
 	<groupId>io.github.snmaddula-components</groupId>
 	<artifactId>swagger-ready</artifactId>
-	<version>1.0.0</version>
+	<version>1.0.0-SNAPSHOT</version>
 
 	<name>swagger-ready</name>
 	<url>https://github.com/snmaddula-components/swagger-ready</url>
